@@ -25,8 +25,12 @@ export default function App() {
     <section>
       <h1>투두리스트 타임어택</h1>
       <TodoForm setTodos={setTodos} />
-      <TodoList title="Working" todos={workingTodos} setTodos={setTodos} />
-      <TodoList title="Done" todos={doneTodos} setTodos={setTodos} />
+      <TodoList
+        title="Working... 🖥️"
+        todos={workingTodos}
+        setTodos={setTodos}
+      />
+      <TodoList title="Done ✅" todos={doneTodos} setTodos={setTodos} />
     </section>
   );
 }
